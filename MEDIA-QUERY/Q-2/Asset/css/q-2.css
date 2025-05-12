@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#A3CCBE;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.5;
+}
+img{
+    max-width: 100%;
+    display: block;
+
+}
+.container{
+    max-width: 1320px;
+    padding-left:15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * 15px); 
+    margin-right: calc(-1 * 15px);
+}
+.col-6{
+    width: 50%;
+}
+.col-12{
+    width: 100%;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    padding-left: 15px;
+    padding-right: 15px;
+} 
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.row-gap-30{
+    row-gap: 30px;
+}
+.blog{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: white;
+}
+.heading-sec{
+  margin-top: 20px ;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.heading-sec span , .details div span{
+    color: rgb(51, 161, 138);
+    font-size: 18px;
+    font-family: 'Forum';
+    font-weight: 500;
+    padding-left: 20px;
+   
+}
+.heading-sec h1  {
+    color: #000000;
+    font-size: 30px;
+}
+.details{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  flex-grow: 1;
+}
+.details div{
+    /* border: 1px solid rgba(12, 12, 12, 0.9); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    max-width: 300px;
+    height: 630px;
+    object-fit: cover;
+    
+}
+.details div img{
+   width: 500px;
+   height: 277px;
+   margin-bottom: 30px;
+
+}
+.details div h1,h2 {
+    color: #000000;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: 'Forum';
+    padding-left: 10px;
+}
+.details div p {
+    color: rgb(87, 91, 102);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.1;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+}
+.details a{
+    color: #000000;
+    text-decoration: none;
+    margin-top: 25px;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 1.2;
+    font-family: 'Forum';
+    padding-left: 20px;
+    margin-bottom: 20px;
+ 
+}
+
