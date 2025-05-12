@@ -204,7 +204,7 @@
               .row .col-md-3:nth-child(3) .details div p{
                 margin-bottom: 20px;
               }
-              .row .col-md-3:nth-child(5) .details div p{
+              .row .col-lg-3:nth-child(5) .details div p{
                 margin-bottom: 45px;
               }
     }
